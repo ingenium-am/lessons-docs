@@ -1,0 +1,118 @@
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    font-family: Arial,sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+table.counter {
+    width: auto;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+}
+
+div.counter-container {
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+#buttons-container {
+    text-align: center;
+    margin-top: 42px;
+}
+
+table.buttons {
+    display: inline-block;
+}
+
+.counter * {
+    background: url(./images/sprite-nums.png);
+    margin: 0;
+    padding: 0;
+}
+
+.top-toggle {
+    background-position: 0 -30px;
+    height: 15px;
+    width: 22px;
+}
+.top-toggle:active {
+    background-position: -22px -30px;
+}
+
+.bot-toggle {
+    background-position: 0 -45px;
+    height: 15px;
+    width: 22px;
+}
+.bot-toggle:active {
+    background-position: -22px -45px;
+}
+
+.numbers * {
+    height: 30px;
+    width: 22px;
+}
+
+tr.buttons * {
+    background: url(./images/sprite-buttons.png);
+    margin: 0;
+    padding: 0;
+}
+
+#decButton {
+    background-position: 0 0;
+    height: 36px;
+    width: 36px;
+}
+#decButton:active {
+    background-position: 0 -36px;
+}
+
+#rstButton {
+    background-position: -36px 0;
+    height: 36px;
+    width: 36px;
+}
+#rstButton:active {
+    background-position: -36px -36px;
+}
+
+#incButton {
+    background-position: -72px 0;
+    height: 36px;
+    width: 36px;
+}
+#incButton:active {
+    background-position: -72px -36px;
+}
+
+div.counter-desc {
+    color: #555555;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+p.counter-name {
+    color: #000000;
+    font-weight: bold;
+    font-size: 9pt;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+p.counter-ann {
+    font-size: 7pt;
+    margin-top: 5px;
+}
+
+#statusbar {
+    color: #555555;
+    font-size: 9pt;
+    margin-bottom: 5px;
+}
